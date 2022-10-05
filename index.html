@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="img_box">
+        <div id="preTextBox"> </div>
+        <textarea  id="text" placeholder="Add Caption:"></textarea>
+        <input type="file" name="image" id="file" accept="image/*" onchange="loadFile(event)">
+        <label for="file"><img src="img/upload2.jpg" class="upload"></label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
