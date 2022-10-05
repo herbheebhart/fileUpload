@@ -47,3 +47,8 @@
     left: 50%;
     transform: translateX(-50%);
 }
+@media  (min-width:250px) and (max-width:991px) {
+    .container{
+        max-width: 100%;
+    }
+}
