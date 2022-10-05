@@ -69,6 +69,6 @@
 }
 @media  (min-width:751px) and (max-width:991px) {
     .container{
-        max-width: 80%;
+        max-width: 100%;
     }
 }
